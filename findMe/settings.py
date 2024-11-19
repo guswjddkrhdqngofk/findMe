@@ -37,6 +37,10 @@ SECRET_KEY = 'django-insecure-xd!=^$=cff^npv)dv(8@(%=3@=pox2j#+(h6@(i3=m!#zxpgb9
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS = ['https://*.cloudtype.app']
+
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
